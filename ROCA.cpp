@@ -4,7 +4,7 @@
 #include "src/ServerConfig.h"
 #include "src/Utils.h"
 
-const std::string configFileName = "server_config.txt";
+const std::string configFileName = "./data/server_config.txt";
 
 int main() {
     WSADATA wsData;
